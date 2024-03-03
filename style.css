@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(var(--GRID_WIDTH), max-content);
+}
+
+.cell {
+    width: 20px;
+    aspect-ratio: 1/1;
+    background-color: white;
+    border: 1px outset black;
+}
+
+.isAlive {
+    background-color: green;
+}
